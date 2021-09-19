@@ -107,7 +107,7 @@ while running:
 	
 	#Checking if the snake position and food position is same.
 	if snake_position[0] == food_position[0] and snake_position[1] == food_position[1]:
-		score += 10
+		score += 5
 		food_spawn = False
 	else:
 		snake_body.pop()
